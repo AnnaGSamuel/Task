@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from faker import Faker
 import requests
 
-client = MongoClient('mongodb+srv://annagsamuelb21cs1213:R9n0Xua2f6iMV5X3@cluster1.q6qrewn.mongodb.net/?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://annagsamuel:ansam13@cluster1.q6qrewn.mongodb.net/')
 db = client['company_db']
 
 employees_collection = db['user']
